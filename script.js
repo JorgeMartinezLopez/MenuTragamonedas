@@ -22,7 +22,7 @@ function typeWriter(textElement, text, speed, callback) {
 // Llamar a la función typeWriter para escribir el texto gradualmente
 typeWriter(questionElement, questionText, 50, function () {
     // El texto de arriba ha terminado de escribirse, ahora puedes mostrar el texto de abajo
-    typeWriter(answerElement, "Logres obtener 3 figuras iguales?", 50);
+    typeWriter(answerElement, "...logres obtener 3 figuras iguales?", 50);
 });
 
 document.getElementById("playButton").addEventListener("click", function () {
